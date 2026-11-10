@@ -1,0 +1,420 @@
+{
+  "document": {
+    "title": "Brand guidelines",
+    "brand": "Premiato Mobilificio",
+    "version": "1.1",
+    "language": "it-IT",
+    "created": "2026-11-10",
+    "website": "https://premiatomobilificio.it/"
+  },
+  "provenance": {
+    "method": "Analisi del sito pubblico e dei CSS serviti dal sito. Le osservazioni sono separate dalle raccomandazioni editoriali e di design.",
+    "sources": [
+      {
+        "url": "https://premiatomobilificio.it/",
+        "type": "sito ufficiale",
+        "accessed": "2026-11-10",
+        "supports": [
+          "posizionamento e servizi dichiarati",
+          "tono e contenuti"
+        ]
+      },
+      {
+        "url": "https://premiatomobilificio.it/wp-content/uploads/redux/options.css",
+        "type": "CSS del sito",
+        "accessed": "2026-11-10",
+        "supports": [
+          "colori e caratteri effettivamente configurati"
+        ]
+      },
+      {
+        "url": "https://premiatomobilificio.it/wp-content/uploads/2016/09/premiato_mobilificio_logo.png",
+        "type": "logo pubblicato",
+        "accessed": "2026-11-10",
+        "supports": [
+          "riferimento al marchio"
+        ]
+      },
+      {
+        "url": "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=IT&is_targeted_country=false&media_type=all&search_type=page&view_all_page_id=202823406810847",
+        "type": "Meta Ads Library, pagina indicata dal richiedente",
+        "accessed": "2026-11-10",
+        "supports": [
+          "identificazione della pagina e dei filtri richiesti"
+        ],
+        "access_status": "La pagina e le creatività non sono risultate accessibili negli strumenti di consultazione; nessuna inserzione è stata valutata visivamente."
+      }
+    ],
+    "confidence": {
+      "observed": "Dato direttamente visibile nel sito o nei CSS consultati.",
+      "recommended": "Indicazione proposta per rendere il sistema coerente; non presentata come standard ufficiale preesistente."
+    }
+  },
+  "brand": {
+    "name": "Premiato Mobilificio",
+    "category": "Arredamento e progettazione di interni",
+    "service_area_claimed": "Lunigiana e tutta Italia",
+    "positioning_observed": "Mobilificio con oltre 40 anni di presenza in Lunigiana, che propone soluzioni di interni e design, arredamento completo e su misura, consulenza e progettazione con rendering 3D.",
+    "brand_essence_recommended": "La casa prende forma intorno alle persone: ascolto, progetto e arredi scelti con cura.",
+    "values_recommended": [
+      "ascolto",
+      "competenza progettuale",
+      "cura",
+      "personalizzazione",
+      "continuità nel tempo"
+    ],
+    "audiences_recommended": [
+      "persone e famiglie che arredano o rinnovano casa",
+      "clienti che cercano una composizione coordinata",
+      "chi desidera un progetto personalizzato e supporto nella scelta"
+    ]
+  },
+  "identity": {
+    "logo": {
+      "primary_asset_url": "https://premiatomobilificio.it/wp-content/uploads/2016/09/premiato_mobilificio_logo.png",
+      "header_asset_url": "https://premiatomobilificio.it/wp-content/uploads/2016/09/premiato_logo_head-98x42.png",
+      "white_asset_url": "https://premiatomobilificio.it/wp-content/uploads/2016/09/logo_premiato_mobilificio_white.png",
+      "rules_recommended": [
+        "Usare il file originale e mantenere le proporzioni.",
+        "Lasciare spazio libero intorno al marchio pari almeno all’altezza della lettera iniziale del logotipo.",
+        "Usare la versione bianca solo su fondi scuri uniformi.",
+        "Non ricreare, inclinare, comprimere, ricolorare o applicare ombre al logo.",
+        "Verificare sempre la leggibilità del file alla dimensione effettiva di utilizzo."
+      ],
+      "clear_space_status": "Valore proposto; da convalidare sul file vettoriale o master del logo.",
+      "assets": [
+        {
+          "file": "assets/logos/premiato-mobilificio-logo.png",
+          "variant": "logo principale pubblicato sul sito",
+          "source_url": "https://premiatomobilificio.it/wp-content/uploads/2016/09/premiato_mobilificio_logo.png"
+        },
+        {
+          "file": "assets/logos/premiato-mobilificio-header.png",
+          "variant": "logo compatto per intestazione",
+          "source_url": "https://premiatomobilificio.it/wp-content/uploads/2016/09/premiato_logo_head-98x42.png"
+        },
+        {
+          "file": "assets/logos/premiato-mobilificio-logo-bianco.png",
+          "variant": "logo bianco per fondo scuro",
+          "source_url": "https://premiatomobilificio.it/wp-content/uploads/2016/09/logo_premiato_mobilificio_white.png"
+        }
+      ]
+    },
+    "colors": [
+      {
+        "name": "Oliva",
+        "hex": "#8A8F6A",
+        "rgb": [
+          138,
+          143,
+          106
+        ],
+        "role": "colore principale osservato nei CSS; accenti, dettagli, superfici secondarie e indicatori",
+        "status": "observed",
+        "text_use": "Non usare per testo piccolo su bianco; contrasto insufficiente per testo normale."
+      },
+      {
+        "name": "Legno caldo",
+        "hex": "#C39F76",
+        "rgb": [
+          195,
+          159,
+          118
+        ],
+        "role": "accento caldo osservato; richiami materici, linee e piccoli dettagli",
+        "status": "observed",
+        "text_use": "Riservare a elementi decorativi o grandi superfici; evitare testo piccolo su bianco."
+      },
+      {
+        "name": "Carbone",
+        "hex": "#28262B",
+        "rgb": [
+          40,
+          38,
+          43
+        ],
+        "role": "titoli e testo ad alto contrasto; osservato nei CSS",
+        "status": "observed"
+      },
+      {
+        "name": "Nero morbido",
+        "hex": "#242424",
+        "rgb": [
+          36,
+          36,
+          36
+        ],
+        "role": "testo e link; osservato nei CSS",
+        "status": "observed"
+      },
+      {
+        "name": "Bianco",
+        "hex": "#FFFFFF",
+        "rgb": [
+          255,
+          255,
+          255
+        ],
+        "role": "fondo pulito e logo in negativo",
+        "status": "recommended"
+      },
+      {
+        "name": "Avorio",
+        "hex": "#F5F2EC",
+        "rgb": [
+          245,
+          242,
+          236
+        ],
+        "role": "fondo caldo proposto per alternare le sezioni e valorizzare legno e tessuti",
+        "status": "recommended"
+      },
+      {
+        "name": "Oliva profondo",
+        "hex": "#62664A",
+        "rgb": [
+          98,
+          102,
+          74
+        ],
+        "role": "variante proposta per testo o pulsanti su fondo chiaro quando serve contrasto",
+        "status": "recommended"
+      }
+    ],
+    "palette_guidance": "Usare il carbone per la lettura, l’oliva come firma cromatica e il legno caldo come accento. Avorio e materiali naturali sono fondi di supporto, non colori ufficiali rilevati."
+  },
+  "typography": {
+    "observed_families": [
+      {
+        "family": "Raleway",
+        "role": "titoli, navigazione e call to action",
+        "status": "observed"
+      },
+      {
+        "family": "Lato",
+        "role": "testo corrente e interfaccia",
+        "status": "observed"
+      },
+      {
+        "family": "Lora",
+        "role": "alcuni link e dettagli editoriali",
+        "status": "observed"
+      }
+    ],
+    "recommended_hierarchy": [
+      {
+        "level": "H1",
+        "family": "Raleway",
+        "weight": 600,
+        "desktop_px": "44-56",
+        "mobile_px": "34-40",
+        "line_height": "1.12"
+      },
+      {
+        "level": "H2",
+        "family": "Raleway",
+        "weight": 600,
+        "desktop_px": "30-40",
+        "mobile_px": "26-32",
+        "line_height": "1.2"
+      },
+      {
+        "level": "H3",
+        "family": "Raleway",
+        "weight": 600,
+        "desktop_px": "22-28",
+        "mobile_px": "20-24",
+        "line_height": "1.25"
+      },
+      {
+        "level": "Body",
+        "family": "Lato",
+        "weight": 400,
+        "desktop_px": "16-18",
+        "mobile_px": "16",
+        "line_height": "1.55-1.7"
+      },
+      {
+        "level": "Editorial accent",
+        "family": "Lora",
+        "weight": 400,
+        "desktop_px": "15-17",
+        "mobile_px": "15-16",
+        "line_height": "1.55"
+      }
+    ],
+    "fallbacks": "Raleway, Lato e Lora con fallback sans-serif o serif appropriato; verificare che le famiglie siano caricate e che i pesi usati siano disponibili."
+  },
+  "visual_language": {
+    "photography": {
+      "recommended": [
+        "Preferire ambienti reali o rendering chiaramente presentati come tali.",
+        "Mostrare stanze abitabili, luce naturale, materiali e proporzioni credibili.",
+        "Alternare inquadrature d’insieme e dettagli di finiture, contenimento e componenti.",
+        "Mantenere palette fotografica calda e neutra; lasciare che siano gli arredi a portare il colore.",
+        "Usare immagini luminose, ordinate e autentiche; evitare filtri pesanti e saturazione artificiale."
+      ],
+      "avoid": [
+        "stock generico non legato al prodotto",
+        "prospettive deformate o stanze irrealistiche",
+        "immagini troppo scure che nascondono materiali e dettagli"
+      ]
+    },
+    "composition": [
+      "Griglie ordinate, margini generosi e gerarchia chiara.",
+      "Un’immagine protagonista per sezione, con testo breve e concreto.",
+      "Alternare bianco e avorio; usare oliva e legno caldo con moderazione.",
+      "Pulsanti descrittivi e visibili: “Richiedi una consulenza” o “Scopri i prodotti”."
+    ],
+    "iconography": "Preferire icone lineari semplici, coerenti per tratto e dimensione. Le icone accompagnano le informazioni e non sostituiscono etichette comprensibili."
+  },
+  "voice": {
+    "traits_recommended": [
+      "competente",
+      "accogliente",
+      "concreto",
+      "personalizzato",
+      "tranquillo"
+    ],
+    "principles": [
+      "Parlare di come il progetto aiuta la vita quotidiana.",
+      "Spiegare il servizio e il passo successivo con parole semplici.",
+      "Usare il “tu” in modo cordiale e coerente.",
+      "Preferire promesse verificabili a superlativi generici.",
+      "Dare contesto a materiali, dimensioni e soluzioni; evitare pressione commerciale."
+    ],
+    "preferred_words": [
+      "su misura",
+      "progetto",
+      "consulenza",
+      "spazio",
+      "materiali",
+      "soluzioni",
+      "casa"
+    ],
+    "avoid": [
+      "superlativi non dimostrabili",
+      "gergo tecnico non spiegato",
+      "urgenze artificiali",
+      "promesse su prezzi, consegne o garanzie senza conferma"
+    ],
+    "sample_copy": [
+      {
+        "context": "Hero",
+        "text": "Progettiamo spazi che parlano di te. Raccontaci come immagini la tua casa: ti aiutiamo a scegliere arredi e soluzioni su misura."
+      },
+      {
+        "context": "Consulenza",
+        "text": "Partiamo dalle tue esigenze e dalle misure degli ambienti. Insieme definiamo una soluzione coerente con il tuo modo di vivere."
+      },
+      {
+        "context": "Call to action",
+        "text": "Parliamo del tuo progetto"
+      },
+      {
+        "context": "Rendering",
+        "text": "Visualizza il progetto in 3D e valuta la disposizione prima di scegliere."
+      }
+    ]
+  },
+  "accessibility": {
+    "recommendations": [
+      "Mantenere contrasto minimo WCAG AA per testo normale e componenti essenziali.",
+      "Usare carbone o oliva profondo per testo su bianco o avorio.",
+      "Non comunicare stati o categorie usando solo il colore.",
+      "Aggiungere testi alternativi descrittivi alle immagini informative.",
+      "Mantenere focus da tastiera visibile e dimensioni di testo leggibili su mobile."
+    ],
+    "contrast_note": "I colori oliva #8A8F6A e legno caldo #C39F76 sono accenti del sistema esistente, ma non sono adatti a testo piccolo su bianco. La variante oliva profondo è una raccomandazione da verificare nel contesto d’uso."
+  },
+  "governance": {
+    "confirmed_from_site": [
+      "oltre 40 anni di attività dichiarati",
+      "presenza in Lunigiana e in tutta Italia dichiarata",
+      "arredamento completo e su misura",
+      "consulenza e progettazione dello spazio",
+      "rendering 3D menzionato"
+    ],
+    "verify_before_publication": [
+      "indirizzo e orari aggiornati",
+      "marchi e prodotti attualmente disponibili",
+      "tempi, garanzie, prezzi e condizioni di consegna",
+      "eventuali certificazioni o dichiarazioni ambientali",
+      "diritti e autorizzazioni per fotografie e loghi di terzi",
+      "Le creatività attive e gli annunci storici nella Libreria inserzioni Meta; il collegamento fornito non è stato leggibile durante questa revisione."
+    ],
+    "status_note": "Documento di indirizzo ricavato dal sito pubblico; non sostituisce la verifica del logo master o l’approvazione interna del brand."
+  },
+  "campaign_ads": {
+    "name": "Sistema creativo proposto per Meta Ads",
+    "status": "recommended_not_official",
+    "library_page_id": "202823406810847",
+    "requested_scope": {
+      "country": "IT",
+      "active_status": "active",
+      "media_type": "all",
+      "sort": "total_impressions_desc"
+    },
+    "visual_audit": {
+      "status": "not_verified",
+      "accessed": "2026-11-10",
+      "finding": "La Libreria inserzioni indicata non ha restituito le creatività visuali tramite gli strumenti di consultazione disponibili. Non è possibile confermare quali annunci siano attivi né descrivere le loro grafiche.",
+      "observed_ads": [],
+      "next_step": "Confrontare questa proposta con gli screenshot o gli asset delle inserzioni correnti quando disponibili."
+    },
+    "creative_direction": {
+      "idea": "La casa, pensata per te",
+      "objective": "Far capire il valore della progettazione e portare a un primo contatto o a una consulenza.",
+      "status": "direzione proposta sulla base del sito, non audit delle inserzioni esistenti",
+      "visual_rules": [
+        "Usare fotografie di ambienti e progetti del mobilificio; se si usa un rendering, marcarlo chiaramente come rendering 3D.",
+        "Una stanza o un arredo protagonista per creatività.",
+        "Mostrare un vantaggio concreto in una breve headline; lasciare che la fotografia mostri materiali e composizione.",
+        "Applicare Raleway ai titoli, Lato ai testi, carbone per la leggibilità, oliva come accento e legno caldo solo per dettagli.",
+        "Inserire il logo in una zona stabile e libera, con proporzioni originali; non sovrapporlo a dettagli importanti.",
+        "Adattare la composizione ai tagli verticali 4:5 e 9:16, mantenendo soggetto e testo essenziali lontani dai margini di sicurezza.",
+        "Usare una CTA singola e coerente con il percorso, ad esempio “Parliamo del tuo progetto”."
+      ],
+      "avoid": [
+        "testi lunghi sopra le immagini",
+        "testo piccolo in oliva o legno caldo su bianco",
+        "stock generico o rendering presentati come fotografia reale",
+        "prezzi, sconti, disponibilità o garanzie non verificati"
+      ]
+    },
+    "creative_routes": [
+      {
+        "name": "Progetto su misura",
+        "visual": "Ambiente completo o confronto tra vista del progetto 3D e risultato reale, solo se entrambi autentici e autorizzati.",
+        "hook": "Uno spazio progettato intorno a te.",
+        "proof": "Progettazione e rendering 3D, se riferibili al servizio effettivamente disponibile.",
+        "cta": "Richiedi una consulenza."
+      },
+      {
+        "name": "Focus ambiente",
+        "visual": "Un solo ambiente o prodotto, ripreso con luce naturale e un dettaglio materico in primo piano.",
+        "hook": "Più spazio per il tuo modo di vivere.",
+        "proof": "Mostrare la soluzione e il beneficio reale, senza dichiarazioni tecniche non confermate.",
+        "cta": "Scopri le soluzioni."
+      },
+      {
+        "name": "Competenza e fiducia",
+        "visual": "Showroom, team o ambiente reale del punto vendita, con ritratto o dettaglio autentico.",
+        "hook": "Da oltre 40 anni, al tuo fianco.",
+        "proof": "Il sito dichiara oltre 40 anni di attività e presenza in Lunigiana.",
+        "cta": "Parliamone insieme."
+      }
+    ],
+    "copy_formula": [
+      "beneficio per la vita quotidiana",
+      "prova visiva o servizio disponibile",
+      "invito semplice al passo successivo"
+    ],
+    "production_notes": [
+      "Creare un master per formato e adattare il ritaglio per ogni posizionamento.",
+      "Controllare contrasto, leggibilità su schermo piccolo e area libera del logo.",
+      "Usare un solo messaggio principale per variante e testare un elemento alla volta.",
+      "Confermare diritti d’uso, disponibilità di prodotto e accuratezza di ogni promessa prima della pubblicazione."
+    ]
+  }
+}
